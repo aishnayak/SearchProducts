@@ -1,0 +1,237 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: 'Times New Roman', Times, serif; */
+}
+body{
+  background-color: 	#e8e8e8;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.templateContainer{
+  /* background-color: #D1D9E0; */
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.searchContainer1{
+  margin-top: 40px;
+  /* border: 1px solid black; */
+  border-radius: 50px;
+  width: 1600px;
+  height: 120px;
+background-color: white;
+box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+/* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+ 
+}
+.searchInput_Container2{
+  border: 3px solid grey;
+  border-radius: 40px;
+  width: 1550px;
+  height: 80px;
+  margin: 25px 20px 25px ; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background-color: white;
+
+}
+#searchInput{
+  width: 780px;
+  border: 4px solid black;
+  background-color: #D1D9E0;
+  color: black;
+  height: 50px;
+  border-radius: 50px;
+  align-items: center;
+  padding: 20px;
+}
+#btn{
+  width: 270px;
+color: white;
+height: 50px;
+border-radius: 50px;
+background-color: #F4D03F;
+background-image: linear-gradient(132deg, #F4D03F 0%, #16A085 100%);
+
+}
+
+/* product cobtainer  */
+.box{
+  margin-top: 40px;
+width: 1600px;
+height: 550px ;
+background-color: whitesmoke;
+border-radius: 10px;
+}
+.orderDetails{
+  /* border: 1px solid black; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box2{
+  width: 1550px;
+  height: 700px;
+}
+/* info  */
+.info{
+  /* border: 1px solid black; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  width: 1550px;
+  padding: 25px;
+  height: 250px;
+}
+/* date  */
+.date{
+  width: 250px;
+  height: 170px;
+}
+.date>h5{
+font-weight: bold;
+font-size: 20px;
+}
+.date>p{
+  font-size: 10px;
+}
+/* paid  */
+.paid{
+  width: 250px;
+  height: 170px;
+  text-align: center;
+}
+.paid>p{
+  color: blue;
+}
+.paid>button{
+  width: 130px;
+  border: none;
+  padding: 10px;
+  background-color: greenyellow;
+}
+
+/* contact  */
+.contact{
+  width: 250px;
+  height: 170px;
+}
+.contact>h5{
+  font-weight: bold;
+  text-decoration: underline;
+}
+.contact>p{
+  font-size: 10px;
+  text-wrap: wrap;
+  font-weight: 450;
+}
+/* payment  */
+.payement{
+  width: 350px;
+  height: 170px;
+}
+.payement #s{
+  color: red;
+}
+.payement #t{
+  font-weight: 800;
+}
+/* track  */
+.btn{
+  width: 250px;
+  height: 170px;
+}
+.btn button{
+  background-color: #aaaeb2;
+  color: white;
+}
+
+/* invoice  */
+.invoice{
+  width: 350px;
+  height: 170px;
+}
+
+/* product  */
+.product{
+  width: 1000px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  margin-top: 40px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+   background-color: white;
+}
+.left{
+  width: 200px;
+  height: 200px;
+  display: flex;
+  /* align-items: start; */
+  justify-content: start;
+}
+.left>img{
+  width: 150px;
+  height: 120px;
+  /* opacity: 0; */
+}
+.right{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+  margin-top: 0px;
+}
+.m1>a{
+display: flex;
+justify-content: center;
+color: blue;
+}
+.m2{
+  margin-top: 0px;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+
+}
+.r1{
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  flex-direction: column;
+  text-align: start;
+  width: 250px;
+  height: 150px;
+  padding: 10px;
+}
+.r1>p{
+  font-size: 20px;
+  font-weight: 500;
+}
+.r2{
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  flex-direction: column;
+  text-align: start;
+  width: 250px;
+  height: 150px;
+  padding: 10px;
+  text-wrap: wrap;
+}
+.r2>p{
+  font-size: 20px;
+  font-weight: 500;
+}
